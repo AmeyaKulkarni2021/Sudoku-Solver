@@ -1,5 +1,12 @@
 # Sudoku-Solver
 
+### Introduction
+While multiple strategies exist for solving a sudoku, beyond a point a player is required to make smart guesses to move forward.
+With an algorithmic program, we can brute force a solution by checking combinations of all possibilities, but this can become computationally expense. This is due to the fact that a sudoku is an NP or Non-Polynomial type of problem, meaning with increase in open positions in the sudoku puzzle, the computational time increases exponentially.
+In this solver program we attempt the puzzle using two approaches: conventional and modified brute force. Both approaches are described in details in the Methodology section.
+The program has been designed in a modular fashion, allowing for easy customization to different formats of the game.
+For the time being, a player needs to manually input the sudoku puzzle into the program through a Tkinter GUI. An image recognition-based approach may be considered in the future.
+
 ### Libraries used
 1. Numpy
 2. Tkinter
